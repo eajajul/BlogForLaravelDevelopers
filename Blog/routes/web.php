@@ -20,3 +20,8 @@ Route::get('/about',function ()
     return view('Pages.about');
 });
 
+Route::get('/users/{id}/{name}',function($id,$name)
+{
+     return "This is user ".$name. " with Id ".$id;
+
+});
