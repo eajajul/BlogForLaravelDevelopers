@@ -23,6 +23,12 @@
           <a class="nav-link " href="/services">services</a>
         </li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="nav-link " href="/posts/create">Create Post</a>
+        </li>
+        
+      </ul>
       <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2 input-sm" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-secondary btn-sm" type="submit">Search</button>
